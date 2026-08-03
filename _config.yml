@@ -3,8 +3,8 @@
 # -----------------------------------------------------------------------------
 
 title: blank # the website title (if blank, full name will be used instead)
-first_name: Muhammad Awais
-last_name: Basharat
+first_name: Muhammad 
+last_name: Awais
 contact_note: >
   Best reached via email. Open to collaborations, research discussions, and opportunities in AI/ML and Data Engineering.
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
