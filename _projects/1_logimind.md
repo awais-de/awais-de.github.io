@@ -1,20 +1,22 @@
 ---
 layout: page
 title: LogiMind
-description: Multi-agent RAG system for querying public logistics operational data in natural language
+description: Multi-agent RAG over public logistics operational documentation
 img:
 importance: 1
 category: ai
 ---
 
-LogiMind is a multi-agent Retrieval-Augmented Generation (RAG) system that lets you query a public logistics knowledge base in natural language and get grounded, cited answers back instead of a wall of documents.
+Multi-agent RAG system for querying public logistics operational documentation in natural language.
 
-The system is built around a team of cooperating agents — orchestrated with **AutoGen** and **LangChain** — that split a query into sub-tasks, retrieve relevant context from a **Qdrant** vector store, and synthesize a final answer. Retrieval quality and answer faithfulness are continuously evaluated with **RAGAS**, and every run is traced end-to-end with **LangSmith** so regressions in retrieval or generation are caught before they reach a user. The system is served through a **FastAPI** backend with a **Streamlit** front end, deployed on **AWS**.
+A fixed-orchestration agent pipeline — planner, retriever, responder — runs hybrid BM25 and dense retrieval against a **Qdrant** vector store, served through a **FastAPI** backend with a **Streamlit** UI. The pipeline is instrumented end to end with **LangSmith** tracing and evaluated continuously with **RAGAS**.
 
-This is my flagship project for the transition from data engineering into AI/LLM engineering: it applies the same rigor I used to bring to data pipelines — testability, observability, evaluation — to an agentic RAG system instead of a batch ETL job.
+**Measured:** 0.98 faithfulness, ~9.4s median latency, $0.028 per query. 108 tests, Dockerized, CI on every push, deployed live.
 
-**Stack:** AutoGen, LangChain, RAGAS, LangSmith, Qdrant, FastAPI, Streamlit, AWS
+Architectural decisions are documented in the repo — including why the retriever agent is deliberately not LLM-backed, and why I chose fixed orchestration over an AutoGen group chat.
 
-**Status:** In active development
+**Stack:** AutoGen, LangChain, Qdrant, RAGAS, LangSmith, FastAPI, Streamlit, hybrid BM25 + dense retrieval, Docker, GitHub Actions, AWS
+
+**Status:** Deployed, CI on every push
 
 **Code:** [github.com/awais-de/logimind](https://github.com/awais-de/logimind)

@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Data & BI Engineer moving into AI/LLM Engineering · M.Sc. Media Engineering, TU Ilmenau
+subtitle: AI/ML Engineer · M.Sc. Media Engineering, TU Ilmenau, Germany
 
 profile:
   align: right
@@ -25,10 +25,8 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I'm a Data & BI Engineer with three years in production data systems, now deliberately moving into AI/LLM Engineering. I'm doing that transition the way I do everything else: build the fundamentals first, then ship something real on top of them. I'm currently an M.Sc. Media Engineering student at [TU Ilmenau](https://www.tu-ilmenau.de/), Germany, working on neural audio codec research under Prof. Gerald Schuller, co-supervised with Andreas Brendel at Fraunhofer IIS Erlangen.
+I build LLM and deep learning systems end to end — retrieval and agent architectures, neural audio models, and the evaluation infrastructure that tells you whether either of them actually works. Three years of prior production data engineering (Razor Group Berlin, Teradata, NETSOL) is why my projects tend to be instrumented rather than demoed: latency budgets, cost per query, measured quality, and failure modes documented rather than hidden.
 
-Before Ilmenau, I spent three years building and operating data infrastructure across e-commerce, telecom, and finance. At **Razor Group** (Berlin) I worked on data and BI systems for Amazon seller aggregation. Before that, at **Teradata** (Islamabad) I worked as a data engineer in the telecom domain, and at **NETSOL Technologies** (Islamabad) I built BI pipelines for enterprise data warehousing in leasing and finance. That work is where the SQL, Spark, Airflow, and dbt actually got hardened — not in a course.
+I'm currently an M.Sc. Media Engineering student at [TU Ilmenau](https://www.tu-ilmenau.de/), Germany, focused on making LLM systems measurable, and on locating the real ceiling in learned audio compression for my thesis, supervised by Prof. Gerald Schuller and co-supervised by Andreas Brendel at Fraunhofer IIS Erlangen.
 
-Right now I'm applying that foundation to AI systems. My flagship project, **LogiMind**, is a multi-agent RAG system for querying public logistics operational data in natural language, built with AutoGen, LangChain, RAGAS, LangSmith, Qdrant, and FastAPI. In parallel, I'm upskilling deliberately across the modern LLM engineering stack — evaluation, retrieval, and agent orchestration — rather than treating it as a side interest.
-
-Reach me by email, or find me on GitHub and LinkedIn below.
+Selected work, full stack breakdown, and career history are on the [projects](/projects/) and [CV](/cv/) pages. Reach me by email, or find me on GitHub and LinkedIn below.

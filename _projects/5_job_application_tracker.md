@@ -3,7 +3,7 @@ layout: page
 title: Job Application Tracker
 description: Self-built tracker with AI-powered intake for managing my own job search
 img:
-importance: 3
+importance: 5
 category: side-project
 ---
 

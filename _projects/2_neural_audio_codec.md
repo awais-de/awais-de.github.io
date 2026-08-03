@@ -1,17 +1,19 @@
 ---
 layout: page
 title: Neural Audio Codec
-description: Deep learning-based audio codec research for my M.Sc. thesis at TU Ilmenau
+description: Low-latency neural speech codec, rate-distortion research (M.Sc. thesis)
 img:
 importance: 2
 category: research
 ---
 
-My M.Sc. thesis project at TU Ilmenau, researching deep learning-based neural audio codecs — models that compress and reconstruct audio using learned representations rather than traditional signal-processing codecs.
+Low-latency neural speech codec, rate-distortion research for my M.Sc. thesis at TU Ilmenau — supervised by **Prof. Gerald Schuller** (TU Ilmenau) and co-supervised by **Andreas Brendel** (Fraunhofer IIS, Erlangen).
 
-The work is supervised by **Prof. Gerald Schuller** at TU Ilmenau and co-supervised by **Andreas Brendel** at **Fraunhofer IIS**, Erlangen. It's implemented in Python with PyTorch.
+A causal transformer encoder/decoder with residual vector quantisation (RVQ), targeting 8–16 kbps for real-time speech. Run as an eight-phase controlled curriculum rather than a hyperparameter sweep, including a deliberate counter-experiment (D-VAE) designed to fail. Quality plateaued at 3 bits per codebook, locating the ceiling in latent entropy rather than quantiser resolution.
 
-**Stack:** Python, PyTorch
+Known limitations — including a `torch.triu`/`torch.tril` bug that invalidated one attention-window phase — are disclosed in full in the repo.
+
+**Stack:** Python, PyTorch, torchaudio, causal transformers, RVQ, autoregressive models, librosa, PESQ, STOI
 
 **Status:** In progress
 
