@@ -2,33 +2,33 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: Data & BI Engineer moving into AI/LLM Engineering · M.Sc. Media Engineering, TU Ilmenau
 
 profile:
   align: right
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p>Ilmenau, Germany</p>
 
-selected_papers: true # includes a list of papers marked as "selected={true}"
+selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 
 announcements:
-  enabled: true # includes a list of news items
+  enabled: false # includes a list of news items
   scrollable: true # adds a vertical scroll bar if there are more than 3 news items
   limit: 5 # leave blank to include all the news in the `_news` folder
 
 latest_posts:
-  enabled: true
+  enabled: false
   scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](https://www.reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+I'm a Data & BI Engineer with three years in production data systems, now deliberately moving into AI/LLM Engineering. I'm doing that transition the way I do everything else: build the fundamentals first, then ship something real on top of them. I'm currently an M.Sc. Media Engineering student at [TU Ilmenau](https://www.tu-ilmenau.de/), Germany, working on neural audio codec research under Prof. Gerald Schuller, co-supervised with Andreas Brendel at Fraunhofer IIS Erlangen.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+Before Ilmenau, I spent three years building and operating data infrastructure across e-commerce, telecom, and finance. At **Razor Group** (Berlin) I worked on data and BI systems for Amazon seller aggregation. Before that, at **Teradata** (Islamabad) I worked as a data engineer in the telecom domain, and at **NETSOL Technologies** (Islamabad) I built BI pipelines for enterprise data warehousing in leasing and finance. That work is where the SQL, Spark, Airflow, and dbt actually got hardened — not in a course.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+Right now I'm applying that foundation to AI systems. My flagship project, **LogiMind**, is a multi-agent RAG system for querying public logistics operational data in natural language, built with AutoGen, LangChain, RAGAS, LangSmith, Qdrant, and FastAPI. In parallel, I'm upskilling deliberately across the modern LLM engineering stack — evaluation, retrieval, and agent orchestration — rather than treating it as a side interest.
+
+Reach me by email, or find me on GitHub and LinkedIn below.
