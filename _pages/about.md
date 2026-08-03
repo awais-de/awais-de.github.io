@@ -6,7 +6,7 @@ subtitle: AI/ML Engineer · M.Sc. Media Engineering, TU Ilmenau, Germany
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: Germany.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>Ilmenau, Germany</p>

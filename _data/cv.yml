@@ -25,7 +25,7 @@ cv:
         area: Media Engineering
         studyType: M.Sc.
         start_date: 2024
-        end_date: present
+        end_date: ""
         score: ""
         courses: ""
         highlights:
@@ -38,8 +38,9 @@ cv:
         studyType: B.Sc.
         start_date: 2016
         end_date: 2020
-        score: "1.9 (German grading scale)"
-        highlights: []
+        score: ""
+        highlights:
+          - "Grade: 1.9 (German grading scale)"
 
     Experience:
       - company: Razor Group GmbH
