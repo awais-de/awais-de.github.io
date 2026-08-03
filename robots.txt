@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://muhammadawais.dev/sitemap.xml
