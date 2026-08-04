@@ -5,7 +5,7 @@ permalink: /projects/
 description: RAG, deep learning, and data engineering projects.
 nav: true
 nav_order: 3
-display_categories: [ai, research, side-project]
+display_categories: [ai, research, data-analytics, side-project]
 horizontal: false
 ---
 
